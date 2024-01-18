@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:whitesmoke;
+        }
+
+        .timetable {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #f0f0f0 ;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .timetable-header, .timetable-row {
+            display: flex;
+        }
+
+        .timetable-header {
+            background-color: #3498db;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .timetable-row {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .timetable-cell {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .enjoy {
+            background-color: #2ecc71;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="timetable">
+        <div class="timetable-header">
+            <div class="timetable-cell">Time</div>
+            <div class="timetable-cell">Subject</div>
+        </div>
+
+        <div class="timetable-row">
+            <div class="timetable-cell">8:00-8:50 am</div>
+            <div class="timetable-cell">Signal Processing</div>
+        </div>
+
+        <div class="timetable-row">
+            <div class="timetable-cell">8:50-9:40 am</div>
+            <div class="timetable-cell">Signal Processing</div>
+        </div>
+
+        <div class="timetable-row">
+            <div class="timetable-cell">9:45-10:35 am</div>
+            <div class="timetable-cell">Maths</div>
+        </div>
+
+        <div class="timetable-row">
+            <div class="timetable-cell">10:40-11:30 am</div>
+            <div class="timetable-cell">Ai</div>
+        </div>
+
+        <div class="timetable-row">
+            <div class="timetable-cell">11:35-12:25 pm</div>
+            <div class="timetable-cell">EIt's Joever</div>
+        </div>
+
+        <div class="timetable-row enjoy">
+            <div class="timetable-cell">12:30-01:20 pm</div>
+            <div class="timetable-cell">It's Joever</div>
+        </div>
+
+        <div class="timetable-row enjoy">
+            <div class="timetable-cell">01:25-02:15 pm</div>
+            <div class="timetable-cell">Analog Lab</div>
+        </div>
+
+        <div class="timetable-row enjoy">
+            <div class="timetable-cell">02:20-03:10 pm</div>
+            <div class="timetable-cell">Analog lab</div>
+        </div>
+
+        <div class="timetable-row enjoy">
+            <div class="timetable-cell">03:10-04:00 pm</div>
+            <div class="timetable-cell">It's Joever</div>
+        </div>
+
+    </div>
+
+</body>
+</html
